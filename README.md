@@ -1,2 +1,0 @@
-# Flighthub
-Sign up 
