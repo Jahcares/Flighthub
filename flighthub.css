@@ -1,0 +1,187 @@
+{
+    background-image: url('flighthub.jpg');
+    width: 100 %;
+    margin-top:0px;
+    padding-top :150px;
+    padding-right :1120px;
+    padding-bottom :120px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity :0.7;
+    
+}
+
+
+body{
+    background-image: url('coolairplane.jpg');
+    opacity :1;
+    height: 100 %;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    font-size: 2rem;
+    color: white ;
+    margin-bottom:1px;
+    text-align :center ;
+}
+
+.wrapper{
+    width: 60%;
+    padding: 2rem 1.5rem;
+    margin:auto;
+    background: transparent ;
+    border-radius: 10px;
+    text-align: left;
+    font-weight :bolder ;
+    font-size: 14px;
+    color :#ffffff;
+    font-family :monospace ;
+}
+
+form input{
+    width:90%;
+    height: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: #e4e4e4;
+    color :#716aff;
+    border: 2px black;
+    background: transparent ;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-bottom-style: groove;
+}
+
+form input: focus {
+        outline: none;
+        border:none;
+        color: #716aff;
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom:8px;
+    padding: 10px ;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    color: #ffffff;
+    opacity :1;
+    cursor: pointer;
+    background: royalblue;
+    display :block;
+    text-align :center ;
+    width: 30%;
+    margin: auto;
+}
+
+button:hover{
+    background: linear-gradient(to right,royalblue,deepskyblue);
+}
+
+input:focus{
+    border:1px solid rgb(192, 192, 192);
+}
+
+.terms{
+    margin-top: 0.2rem;
+    text-align :right ;
+    color :#ffffff;
+    font-family :monospace ;
+    margin-top:1px;
+    
+}
+
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: left;
+    cursor:pointer;
+}
+
+.terms label{
+    font-size: 0.7rem;
+}
+
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+
+.icon{
+    margin-top :10px;
+    padding :20px;
+    text-align :center ;
+}
+
+.fa {
+  padding :12px;
+  font-size: 15px;
+  width: 50px; 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 9px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-weight :bolder ;
+}
+.fa-google {
+  background: #F2F2F2;
+  color: royalblue;
+  font-weight :bolder ;
+}
+
+.by{
+    margin-top :6px;
+    text-align:left;
+    font-size :10px;
+    font-family :monospace ;
+    color: #ffffff;
+}
+.by a{
+    color :rgb(17, 107, 143);
+    text-decoration :none;
+}
+.or{
+    text-align :center ;
+    color: #ffffff ;
+    margin-top:10px
+}
+.already{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #ffffff;
+    font-family :monospace ;
+    text-align :center ;
+}
+
+.already a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+
+.recover a{
+    text-decoration: none;
+    color: #464647;
+}
